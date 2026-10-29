@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IT student portfolio showcasing projects, skills, and learning journey." />
+  <title>Tisha | IT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Tisha home"><span class="brand-mark">T</span><span>Tisha<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a class="nav-cta" href="#contact">Contact me <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> IT STUDENT · ASPIRING DEVELOPER</p>
+          <h1>Turning ideas into <em>digital experiences.</em></h1>
+          <p class="hero-text">Hi, I'm <strong>Tisha</strong>, an M.Sc. IT student who enjoys learning how websites, applications, and interactive experiences are built.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
+            <a class="button button-secondary" href="#contact">Let's connect</a>
+          </div>
+          <div class="hero-note"><span class="status-dot"></span> Open to learning opportunities and IT internships</div>
+        </div>
+        <div class="hero-visual">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="profile-card">
+            <div class="profile-top"><span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span><span class="profile-label">A LITTLE ABOUT ME</span></div>
+            <div class="avatar" aria-label="Profile photo placeholder"><span class="avatar-initial">T</span><span class="avatar-sparkle">✦</span></div>
+            <h2>Your next junior developer</h2>
+            <p>Curious mind. Creative problem-solver. Always learning.</p>
+            <div class="profile-tags"><span>Web development</span><span>Python</span><span>Problem solving</span></div>
+            <div class="mini-code"><span class="code-purple">const</span> goal = <span class="code-green">"keep learning";</span><span class="code-cursor">_</span></div>
+          </div>
+          <div class="floating-chip chip-code"><span>⌘</span> Build · Learn · Improve</div>
+          <div class="floating-chip chip-heart"><span>✦</span> Made with curiosity</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">01 / ABOUT ME</p>
+          <h2 class="section-heading">A little about <em>my journey.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">I'm an IT student building my skills through practical projects and hands-on learning.</p>
+          <p>I enjoy exploring both the logic behind an application and the experience people have while using it. My current portfolio brings together projects in web development, employee record management, and a small fantasy game built with Python and Pygame.</p>
+          <p>I'm looking for opportunities to keep learning, collaborate with others, and contribute to real-world software projects.</p>
+          <div class="about-facts">
+            <div><span class="fact-number">03</span><span class="fact-label">Projects to explore</span></div>
+            <div><span class="fact-number">∞</span><span class="fact-label">Things to learn</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-intro centered">
+          <p class="eyebrow">02 / SKILLS & TOOLS</p>
+          <h2 class="section-heading">Tools I'm learning <em>to work with.</em></h2>
+          <p class="section-subtitle">A snapshot of technologies connected to my projects and learning journey. I keep building these skills through practice.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon icon-web">⌘</div><h3>Web development</h3><p>HTML · CSS · JavaScript · Bootstrap</p><span class="skill-caption">Structure, styling & interactivity</span></article>
+          <article class="skill-card"><div class="skill-icon icon-backend">{ }</div><h3>Backend & data</h3><p>PHP · Node.js · Express.js · MySQL · JSON</p><span class="skill-caption">Server logic & record management</span></article>
+          <article class="skill-card"><div class="skill-icon icon-python">Py</div><h3>Python & games</h3><p>Python · Pygame</p><span class="skill-caption">Game loops, movement & collisions</span></article>
+          <article class="skill-card"><div class="skill-icon icon-tools">✳</div><h3>Tools & workflow</h3><p>VS Code · Git · GitHub</p><span class="skill-caption">Building, testing & sharing projects</span></article>
+           <article class="skill-card"><div class="skill-icon icon-tools">✳</div><h3>cybersecurity & networking</h3><span class="skill-caption">testing & securing projects</span></article>
+
+        </div>
+        <p class="small-note">Edit this section to reflect your current confidence level. Remove any technology you have not used yet.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-intro">
+          <p class="eyebrow">03 / SELECTED PROJECTS</p>
+          <h2 class="section-heading">Things I've been <em>working on.</em></h2>
+          <p class="section-subtitle">These project cards describe the projects you've worked on. Add your own screenshots and repository links when they're ready.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art art-wedding"><div class="art-window"><span class="art-brand">Sanskriti <i>Elegance</i></span><div class="art-arch"><span>✦</span><small>CELEBRATE<br>EVERY MOMENT</small></div><div class="art-bottom"><span>EVENTS</span><span>CELEBRATIONS</span><span>MEMORIES</span></div></div></div>
+            <div class="project-content"><div class="project-meta"><span>01</span><span>WEB APPLICATION</span></div><h3>Sanskriti Elegance</h3><p>A wedding and event rental website concept with event categories and booking-related flows for services such as banquet halls, clothing, food, and photography.</p><div class="tech-tags"><span>PHP</span><span>MySQL</span><span>HTML/CSS</span><span>Bootstrap</span></div><div class="project-links"><a href="#contact">Ask me about this project <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-employee"><div class="dashboard-mock"><div class="dash-sidebar"><b>e.</b><i></i><i></i><i></i></div><div class="dash-main"><div class="dash-title">Employee overview</div><div class="dash-stats"><span></span><span></span><span></span></div><div class="dash-row dash-row-head"><i></i><i></i><i></i></div><div class="dash-row"><i></i><i></i><i></i></div><div class="dash-row"><i></i><i></i><i></i></div><div class="dash-row"><i></i><i></i><i></i></div></div></div></div>
+            <div class="project-content"><div class="project-meta"><span>02</span><span>CRUD APPLICATION</span></div><h3>Employee CRUD Application</h3><p>An employee record management project designed around creating, viewing, updating, searching, and deleting records, with validation and JSON data storage.</p><div class="tech-tags"><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>JSON</span></div><div class="project-links"><a href="#contact">Ask me about this project <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-game"><div class="game-sky"><div class="game-moon"></div><div class="game-cloud cloud-a"></div><div class="game-cloud cloud-b"></div><div class="castle"><span></span><span></span><span></span><b>✦</b></div><div class="game-ground"></div><div class="game-player"></div><div class="game-star star-a">✦</div><div class="game-star star-b">✧</div></div></div>
+            <div class="project-content"><div class="project-meta"><span>03</span><span>GAME DEVELOPMENT</span></div><h3>Dream Generator Game</h3><p>A fantasy platform-game prototype exploring a dreamy world with a player character, background scenery, movement, jumping, and obstacles.</p><div class="tech-tags"><span>Python</span><span>Pygame</span><span>Game loop</span></div><div class="project-links"><a href="#contact">Ask me about this project <span>↗</span></a></div></div>
+          </article>
+        </div>
+        <div class="project-disclaimer">Project visuals above are illustrative CSS mockups, not screenshots of the working applications. Replace them with screenshots of your own projects when available.</div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container two-column education-grid">
+        <div><p class="eyebrow">04 / EDUCATION</p><h2 class="section-heading">Learning today, <em>building tomorrow.</em></h2><p class="section-subtitle">Keep this section updated with your official course, college, and dates.</p></div>
+        <div class="education-card"><div class="education-icon">✧</div><div><span class="education-status">CURRENT STUDIES</span><h3>Master of Science in Information Technology (M.Sc. IT)</h3><p>Institution: <strong>[Add your college/university]</strong></p><p>Expected completion: <strong>[Add year]</strong></p><div class="education-divider"></div><p class="education-footnote">Add relevant coursework, academic achievements, certifications, or seminars here when you are ready.</p></div></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-panel">
+        <div class="contact-decoration">✳</div>
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2 class="section-heading">Let's create something <em>meaningful.</em></h2>
+        <p class="contact-copy">I'm interested in learning opportunities, internships, and connecting with people in technology.</p>
+        <div class="contact-buttons">
+          <a class="button button-primary" id="emailLink" href="mailto:your.email@example.com">Email me <span>↗</span></a>
+          <a class="button button-secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+          <a class="button button-secondary" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+        </div>
+        <p class="contact-edit-note">Before publishing: replace the sample email and social links with your own profiles.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">T</span><span>Tisha<span class="brand-dot">.</span></span></a><p>Designed with care · © <span id="year"></span> Tisha</p><a class="back-top" href="#home">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
